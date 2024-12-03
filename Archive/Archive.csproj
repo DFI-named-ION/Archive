@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\Archives\" />
+    <Folder Include="Models\Compression\" />
+    <Folder Include="Models\Entities\" />
+    <Folder Include="Models\Data\" />
+    <Folder Include="Models\Repositories\" />
+    <Folder Include="Commands\" />
+    <Folder Include="Helpers\" />
+    <Folder Include="Adapters\" />
+    <Folder Include="Facades\" />
+    <Folder Include="P2P\" />
+    <Folder Include="Visitors\" />
+    <Folder Include="Resources\" />
+    <Folder Include="Services\" />
+    <Folder Include="ViewModels\" />
+  </ItemGroup>
+
+</Project>
